@@ -60,6 +60,7 @@ class ComicSearch {
   }
 
   showData(data) {
+    $('.character-list').html(``)
     data.data.results.forEach((hero) => {
 
       //description
