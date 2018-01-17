@@ -116,9 +116,9 @@ class ComicSearch {
 
            </div>
         </li>`)
-
-      $('#attribution').prepend(`${ data.attributionHTML }`)
     })//the end of the forEach loop
+
+    $('#attribution').prepend(`${ data.attributionHTML }`)
 
     $('.character-list > .list-item').click(this.showHideData)
   }
